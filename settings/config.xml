@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <title>Mapeamento da Avaliação de Políticas Públicas no IPEA</title>
+  <welcome>
+    <message>Você está sendo convidado(a) a participar da pesquisa intitulada "Mapeamento da Avaliação de Políticas Públicas no IPEA", conduzida por pesquisadores(as) da instituição com o objetivo de compreender percepções e práticas relacionadas à avaliação de políticas públicas no Brasil.
+
+Sua participação é voluntária e consiste em responder a três blocos de afirmações, organizando-as conforme o quanto mais ou menos concorda com cada uma delas. Após essa etapa, solicitaremos algumas informações profissionais e sociodemográficas.
+
+Não há riscos envolvidos. As informações coletadas serão tratadas de forma anônima e confidencial, sendo utilizadas exclusivamente para fins acadêmicos e institucionais.
+
+Ao clicar em "Iniciar", você declara que leu e entendeu as informações acima e concorda voluntariamente em participar da pesquisa.</message>
+    <buttonText>Iniciar</buttonText>
+  </welcome>
+  <blocks>
+    <!-- Aqui vai o bloco 1 -->
+    <block>
+      <title>O que é Política Pública e para que serve</title>
+      <distribution>1,2,3,4,3,2,1</distribution>
+      <statements>
+        <statement>Políticas são instrumentos para reduzir desigualdades sociais.</statement>
+        <statement>Políticas públicas devem ser flexíveis para se adaptar a mudanças no contexto social e econômico.</statement>
+        <statement>Políticas públicas são ferramentas de poder.</statement>
+        <statement>O sucesso de uma política pública depende da articulação entre governo e sociedade.</statement>
+        <statement>O sucesso de uma política pública depende da coordenação entre diferentes níveis de governo.</statement>
+        <statement>Políticas públicas podem ser formuladas por diversos atores, incluindo políticos, agentes estatais e a sociedade civil.</statement>
+        <statement>Uma política pública é considerada bem-sucedida desde que consiga aceitabilidade entre gestores e tomadores de decisão.</statement>
+        <statement>Uma política pública bem-sucedida é aquela que atinge seus objetivos com o menor custo fiscal possível.</statement>
+        <statement>A formulação de políticas públicas deve considerar a viabilidade orçamentária de sua implementação.</statement>
+        <statement>O custo fiscal de uma política é um aspecto central para julgar sua pertinência.</statement>
+        <statement>Políticas públicas abrangem desde processos estratégicos até a implementação de serviços públicos.</statement>
+        <statement>Políticas públicas devem ser baseadas em diagnósticos sólidos sobre a realidade social e econômica.</statement>
+        <statement>Políticas públicas devem ser entendidas como intervenções planejadas.</statement>
+        <statement>A formulação de políticas públicas deve considerar a viabilidade técnica de sua implementação.</statement>
+        <statement>Uma política pública é eficaz se responde ao problema para o qual foi criada.</statement>
+        <statement>Políticas Públicas devem ser orientadas por objetivos claros traduzidos em indicadores mensuráveis.</statement>
+      </statements>
+    </block>
+    <!-- Aqui vai o bloco 2 e 3, posso te mandar também -->
+  </blocks>
+  <form>
+    <field type="text" required="false">
+      <label>Diretoria</label>
+    </field>
+    <field type="text" required="false">
+      <label>Tempo que está no IPEA</label>
+    </field>
+    <field type="radio" required="true">
+      <label>Trabalha diretamente com avaliação de políticas públicas?</label>
+      <options>
+        <option>Sim</option>
+        <option>Não</option>
+      </options>
+    </field>
+    <field type="radio" required="true">
+      <label>Nível de Instrução</label>
+      <options>
+        <option>Doutorado</option>
+        <option>Mestrado</option>
+        <option>Especialização</option>
+        <option>Graduação</option>
+      </options>
+    </field>
+    <field type="radio" required="true">
+      <label>Área do curso mais elevado concluído</label>
+      <options>
+        <option>Economia</option>
+        <option>Administração</option>
+        <option>Ciências Sociais, Ciências Políticas ou Filosofia</option>
+        <option>Relações Internacionais</option>
+        <option>Geografia</option>
+        <option>Engenharias</option>
+        <option>Computação</option>
+        <option>Ciências exatas e da natureza (Física, Química, Matemática, Biologia e etc)</option>
+        <option>Comunicação ou letras</option>
+        <option>Outros</option>
+      </options>
+    </field>
+    <field type="radio" required="true">
+      <label>Gênero</label>
+      <options>
+        <option>Mulher</option>
+        <option>Homem</option>
+        <option>Pessoa não binária</option>
+        <option>Outro</option>
+        <option>Prefere não responder</option>
+      </options>
+    </field>
+    <field type="radio" required="true">
+      <label>Raça</label>
+      <options>
+        <option>Branca</option>
+        <option>Preta</option>
+        <option>Parda</option>
+        <option>Amarela</option>
+        <option>Indígena</option>
+        <option>Outra</option>
+        <option>Prefere não responder</option>
+      </options>
+    </field>
+  </form>
+</config>
