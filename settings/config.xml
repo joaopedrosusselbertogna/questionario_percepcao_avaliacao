@@ -86,7 +86,7 @@
    </item>
 
    <item id="survey">
-        <input type="select" required="true">GABIN;;;CGCOM;;;DIDES;;;CGDTI;;;DISET;;;DIRUR;;;DISOC;;;DIMAC;;;DINTE;;;DIEST</input>
+        <input type="select" required="true">GABIN;;;CGPLA;;;CGCOM;;;DIDES;;;CGDTI;;;DISET;;;DIRUR;;;DISOC;;;DIMAC;;;DINTE;;;DIEST</input>
         <label>Identificação Profissional</label>
         <note>Diretoria/Coordenação-Geral</note>
    </item>
