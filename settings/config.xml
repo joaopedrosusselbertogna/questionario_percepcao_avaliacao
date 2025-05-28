@@ -1,101 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config>
-  <title>Mapeamento da Avaliação de Políticas Públicas no IPEA</title>
-  <welcome>
-    <message>Você está sendo convidado(a) a participar da pesquisa intitulada "Mapeamento da Avaliação de Políticas Públicas no IPEA", conduzida por pesquisadores(as) da instituição com o objetivo de compreender percepções e práticas relacionadas à avaliação de políticas públicas no Brasil.
 
-Sua participação é voluntária e consiste em responder a três blocos de afirmações, organizando-as conforme o quanto mais ou menos concorda com cada uma delas. Após essa etapa, solicitaremos algumas informações profissionais e sociodemográficas.
+   <config version="7.0.0" htmlParse="false">
 
-Não há riscos envolvidos. As informações coletadas serão tratadas de forma anônima e confidencial, sendo utilizadas exclusivamente para fins acadêmicos e institucionais.
+   <!-- GENERAL SETTINGS -->
+   <!-- "setupTarget" options: netlify, firebase, local, email, or sheets -->
+   <item id="studyTitle">Metodologias de avaliação</item> 
+   <item id="databaseOptions">Include_Google_Options</item>
+   <item id="setupTarget">netlify</item>
+   <!-- STEIN -->
+   <item id="steinApiUrl"></item>
+   <!-- EMAIL -->
+   <item id="emailAddress"></item>  
+   <item id="emailSubject">EQ Web Sort Results</item>  
+   <!-- SECOND PROJECT LINKING -->
+   <item id="linkToSecondProject">false</item> 
+   <item id="secondProjectUrl">http://</item> 
+   <!-- IMAGE OPTIONS  (imageFormat: 169 or 43)-->
+   <item id="useImages">false</item>
+   <item id="numImages">30</item>
+   <item id="imageFileType">jpg</item>
+   <item id="imageFormat">postSortImageModal169</item>
 
-Ao clicar em "Iniciar", você declara que leu e entendeu as informações acima e concorda voluntariamente em participar da pesquisa.</message>
-    <buttonText>Iniciar</buttonText>
-  </welcome>
-  <blocks>
-    <!-- Aqui vai o bloco 1 -->
-    <block>
-      <title>O que é Política Pública e para que serve</title>
-      <distribution>1,2,3,4,3,2,1</distribution>
-      <statements>
-        <statement>Políticas são instrumentos para reduzir desigualdades sociais.</statement>
-        <statement>Políticas públicas devem ser flexíveis para se adaptar a mudanças no contexto social e econômico.</statement>
-        <statement>Políticas públicas são ferramentas de poder.</statement>
-        <statement>O sucesso de uma política pública depende da articulação entre governo e sociedade.</statement>
-        <statement>O sucesso de uma política pública depende da coordenação entre diferentes níveis de governo.</statement>
-        <statement>Políticas públicas podem ser formuladas por diversos atores, incluindo políticos, agentes estatais e a sociedade civil.</statement>
-        <statement>Uma política pública é considerada bem-sucedida desde que consiga aceitabilidade entre gestores e tomadores de decisão.</statement>
-        <statement>Uma política pública bem-sucedida é aquela que atinge seus objetivos com o menor custo fiscal possível.</statement>
-        <statement>A formulação de políticas públicas deve considerar a viabilidade orçamentária de sua implementação.</statement>
-        <statement>O custo fiscal de uma política é um aspecto central para julgar sua pertinência.</statement>
-        <statement>Políticas públicas abrangem desde processos estratégicos até a implementação de serviços públicos.</statement>
-        <statement>Políticas públicas devem ser baseadas em diagnósticos sólidos sobre a realidade social e econômica.</statement>
-        <statement>Políticas públicas devem ser entendidas como intervenções planejadas.</statement>
-        <statement>A formulação de políticas públicas deve considerar a viabilidade técnica de sua implementação.</statement>
-        <statement>Uma política pública é eficaz se responde ao problema para o qual foi criada.</statement>
-        <statement>Políticas Públicas devem ser orientadas por objetivos claros traduzidos em indicadores mensuráveis.</statement>
-      </statements>
-    </block>
-    <!-- Aqui vai o bloco 2 e 3, posso te mandar também -->
-  </blocks>
-  <form>
-    <field type="text" required="false">
-      <label>Diretoria</label>
-    </field>
-    <field type="text" required="false">
-      <label>Tempo que está no IPEA</label>
-    </field>
-    <field type="radio" required="true">
-      <label>Trabalha diretamente com avaliação de políticas públicas?</label>
-      <options>
-        <option>Sim</option>
-        <option>Não</option>
-      </options>
-    </field>
-    <field type="radio" required="true">
-      <label>Nível de Instrução</label>
-      <options>
-        <option>Doutorado</option>
-        <option>Mestrado</option>
-        <option>Especialização</option>
-        <option>Graduação</option>
-      </options>
-    </field>
-    <field type="radio" required="true">
-      <label>Área do curso mais elevado concluído</label>
-      <options>
-        <option>Economia</option>
-        <option>Administração</option>
-        <option>Ciências Sociais, Ciências Políticas ou Filosofia</option>
-        <option>Relações Internacionais</option>
-        <option>Geografia</option>
-        <option>Engenharias</option>
-        <option>Computação</option>
-        <option>Ciências exatas e da natureza (Física, Química, Matemática, Biologia e etc)</option>
-        <option>Comunicação ou letras</option>
-        <option>Outros</option>
-      </options>
-    </field>
-    <field type="radio" required="true">
-      <label>Gênero</label>
-      <options>
-        <option>Mulher</option>
-        <option>Homem</option>
-        <option>Pessoa não binária</option>
-        <option>Outro</option>
-        <option>Prefere não responder</option>
-      </options>
-    </field>
-    <field type="radio" required="true">
-      <label>Raça</label>
-      <options>
-        <option>Branca</option>
-        <option>Preta</option>
-        <option>Parda</option>
-        <option>Amarela</option>
-        <option>Indígena</option>
-        <option>Outra</option>
-        <option>Prefere não responder</option>
-      </options>
-    </field>
-  </form>
-</config>
+   <!-- OTHER GENERAL OPTIONS -->
+   <item id="shuffleCards">false</item>
+   <item id="headerBarColor">#337ab7</item>
+   <item id="devMode">false</item> 
+   <item id="showConsentPage">true</item>
+   <item id="showConsentPageHelpModal">true</item>
+
+   <!-- ACCESS -->
+   <!-- options: anonymous, partId-access, partId, access -->
+   <item id="initialScreen">anonymous</item>
+   <item id="accessCode">demo</item>
+
+   <!-- LEGACY DEFAULTS (do not change these)-->
+   <item id="setDefaultFontSize">true</item>
+   <item id="defaultFontSize">25</item>
+   <item id="displayNeutralObjects">false</item>
+
+   
+   <!-- PRESORT -->
+   <!-- default colors #2a2a2a, #ccffcc, #e0e0e0, #ffe0f0 -->
+   <item id="greenCardColor">#ccffcc</item>
+   <item id="yellowCardColor">#e0e0e0</item>
+   <item id="pinkCardColor">#ffe0e0</item>
+   <item id="defaultFontColor">#2a2a2a</item>
+
+   <item id="setDefaultFontSizePresort">true</item>
+   <item id="defaultFontSizePresort">22</item>
+   <item id="traceSorts">true</item>
+  
+
+   <!-- SORT -->
+   <item id="allowUnforcedSorts">false</item>
+   <item id="warnOverloadedColumn">true</item>
+   <item id="condOfInstFontSize">20</item>
+
+   <item id="setMinCardHeightSort">true</item>
+   <item id="minCardHeightSort">120</item>
+   <item id="setDefaultFontSizeSort">true</item>
+   <item id="defaultFontSizeSort">16</item>
+   
+   <item id="sortDirection">positive</item> 
+
+   <!-- POSTSORT -->
+   <item id="showPostsort">true</item>
+   <item id="showSecondPosColumn">false</item>
+   <item id="showSecondNegColumn">false</item>
+   <item id="showBackButton">true</item>
+   <item id="postsortCommentsRequired">true</item>
+
+   <item id="setDefaultFontSizePostsort">true</item>
+   <item id="defaultFontSizePostsort">16</item>
+   <item id="setMinCardHeightPostsort">true</item>
+   <item id="minCardHeightPostsort">120</item>
+
+
+   <!-- SURVEY - Survey Questions -->
+   <item id="showSurvey">true</item>
+
+   <item id="survey">
+        <input type="select" required="true">Entre 1 e 5 anos;;;Entre 5 e 10 anos;;;Entre 10 e 15 anos;;;Entre 15 e 20 anos;;;Mais de 20 anos</input>
+        <label>Identificação Profissional</label>
+        <note>Tempo que está no IPEA</note>
+   </item>
+
+   <item id="survey">
+        <input type="select" required="true">GABIN;;;CGCOM;;;DIDES;;;CGDTI;;;DISET;;;DIRUR;;;DISOC;;;DIMAC;;;DINTE;;;DIEST</input>
+        <label>Identificação Profissional</label>
+        <note>Diretoria/Coordenação-Geral</note>
+   </item>
+
+   <item id="survey">
+        <input type="select" required="true">Sim;;;Não</input>
+        <label>Identificação Profissional</label>
+        <note>No dia a dia você se envolve diretamente em atividades de Avaliação de Políticas Públicas?</note>
+   </item>
+
+   <item id="survey">
+        <input type="select" required="true">Graduação;;;Especialização;;;Mestrado;;;Doutorado</input>
+        <label>Formação</label>
+        <note>Nível de Instrução</note>
+   </item>
+
+   <item id="survey">
+        <input type="select" required="true">Economia;;;Administração;;;Ciências Sociais, Políticas ou Filosofia;;;Relações Internacionais;;;Geografia;;;Engenharias;;;Computação;;;Matemática;;;Ciências da Natureza (Física, Química, Biologia e etc);;;Comunicação ou Letras;;;Outros</input>
+        <label>Formação</label>
+        <note>Área do Curso mais elevado concluído</note>
+   </item>
+
+   <item id="survey">
+        <input type="select" required="true">Mulher;;;Homem;;;Pessoa não binária;;;Outro;;;Prefiro não responder</input>
+        <label>Identidade Social</label>
+        <note>Gênero</note>
+   </item>
+
+   <item id="survey">
+        <input type="select" required="true">Branca;;;Preta;;;Parda;;;Amarela;;;Indígena;;;Outra;;;Prefiro não responder</input>
+        <label>Identidade social</label>
+        <note>Raça</note>
+   </item>
+
+
+       
+  </config>
