@@ -63,19 +63,6 @@
    
    <item id="sortDirection">positive</item> 
 
-   <!-- POSTSORT -->
-   <item id="showPostsort">true</item>
-   <item id="showSecondPosColumn">false</item>
-   <item id="showSecondNegColumn">false</item>
-   <item id="showBackButton">true</item>
-   <item id="postsortCommentsRequired">true</item>
-
-   <item id="setDefaultFontSizePostsort">true</item>
-   <item id="defaultFontSizePostsort">16</item>
-   <item id="setMinCardHeightPostsort">true</item>
-   <item id="minCardHeightPostsort">120</item>
-
-
    <!-- SURVEY - Survey Questions -->
    <item id="showSurvey">true</item>
 
@@ -86,7 +73,7 @@
    </item>
 
    <item id="survey">
-        <input type="select" required="true">GABIN;;;CGCOM;;;CGPLA;;;DIDES;;;CGDTI;;;DISET;;;DIRUR;;;DISOC;;;DIMAC;;;DINTE;;;DIEST</input>
+        <input type="select" required="true">GABIN;;;CGPLA;;;CGCOM;;;DIDES;;;CGDTI;;;DISET;;;DIRUR;;;DISOC;;;DIMAC;;;DINTE;;;DIEST</input>
         <label>Identificação Profissional</label>
         <note>Diretoria/Coordenação-Geral</note>
    </item>
