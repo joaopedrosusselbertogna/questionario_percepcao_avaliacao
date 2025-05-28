@@ -6,9 +6,9 @@
    <!-- "setupTarget" options: netlify, firebase, local, email, or sheets -->
    <item id="studyTitle">Metodologias de avaliação</item> 
    <item id="databaseOptions">Include_Google_Options</item>
-   <item id="setupTarget">netlify</item>
+   <item id="setupTarget">sheets</item>
    <!-- STEIN -->
-   <item id="steinApiUrl"></item>
+   <item id="steinApiUrl">https://docs.google.com/spreadsheets/d/1x9lnn2xdaKnFdbKLbbEqdohWfVtIkxksxCYKj6ZI7EA/edit?gid=0#gid=0</item>
    <!-- EMAIL -->
    <item id="emailAddress"></item>  
    <item id="emailSubject">EQ Web Sort Results</item>  
@@ -41,9 +41,9 @@
    
    <!-- PRESORT -->
    <!-- default colors #2a2a2a, #ccffcc, #e0e0e0, #ffe0f0 -->
-   <item id="greenCardColor">#3ce93c</item>
+   <item id="greenCardColor">#7aef7a</item>
    <item id="yellowCardColor">#e0e0e0</item>
-   <item id="pinkCardColor">#f55959</item>
+   <item id="pinkCardColor">#f58585</item>
    <item id="defaultFontColor">#2a2a2a</item>
 
    <item id="setDefaultFontSizePresort">true</item>
@@ -54,7 +54,7 @@
    <!-- SORT -->
    <item id="allowUnforcedSorts">false</item>
    <item id="warnOverloadedColumn">true</item>
-   <item id="condOfInstFontSize">20</item>
+   <item id="condOfInstFontSize">31</item>
 
    <item id="setMinCardHeightSort">true</item>
    <item id="minCardHeightSort">120</item>
@@ -62,6 +62,19 @@
    <item id="defaultFontSizeSort">16</item>
    
    <item id="sortDirection">positive</item> 
+
+   <!-- POSTSORT -->
+   <item id="showPostsort">false</item>
+   <item id="showSecondPosColumn">false</item>
+   <item id="showSecondNegColumn">false</item>
+   <item id="showBackButton">false</item>
+   <item id="postsortCommentsRequired">false</item>
+
+   <item id="setDefaultFontSizePostsort">true</item>
+   <item id="defaultFontSizePostsort">16</item>
+   <item id="setMinCardHeightPostsort">true</item>
+   <item id="minCardHeightPostsort">120</item>
+
 
    <!-- SURVEY - Survey Questions -->
    <item id="showSurvey">true</item>
