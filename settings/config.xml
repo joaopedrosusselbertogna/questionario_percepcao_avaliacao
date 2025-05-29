@@ -6,7 +6,7 @@
    <!-- "setupTarget" options: netlify, firebase, local, email, or sheets -->
    <item id="studyTitle">Metodologias de avaliação</item> 
    <item id="databaseOptions">Include_Google_Options</item>
-   <item id="setupTarget">email</item>
+   <item id="setupTarget">netfly</item>
    <!-- STEIN -->
    <item id="steinApiUrl">https://api.sheetbest.com/sheets/a6428b5f-043e-44c1-877e-8e0c18fe1fae</item>
    <!-- EMAIL -->
